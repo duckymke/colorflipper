@@ -1,0 +1,49 @@
+body {
+    font-size: 20px;
+    margin: 0px;
+    background-color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#first {
+    position: relative;
+    top: 100px;
+}
+
+h1 {
+    font-size: 45px;
+    position: relative;
+    top: 75px;
+}
+
+/* h4 {
+    float: left;
+    position: absolute;
+    top: 10px;
+} */
+
+nav {
+    text-align: left;
+    padding: 20px;
+    background-color:darkgrey;
+}
+
+nav ul {
+    margin: 0;
+}
+  
+  nav li {
+    display: inline;
+    font-size: medium;
+    list-style-type: none;
+}
+
+#btn {
+    padding: 30px;
+    width: 200px;
+    border-radius: 15%;
+}
+#btn:hover {
+    border: solid black;
+}
